@@ -1,0 +1,88 @@
+body {
+  border: 1px solid white;
+  /*background: linear-gradient(to right, #fff 10%, #c6d2e3 70%, #fff 20%);*/
+}
+.header {
+  background-color: #e2e2e2;
+  height: 80px;
+  width: 1360px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  padding-top: 30px;
+  padding-left: 98px;
+}
+
+.menu {
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 33px 100px 0px 680px;
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+  color: #727272;
+}
+
+.main1 {
+  background-color: #e2e2e2;
+  width: 1360px;
+  height: 670px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 0px 0px 98px;
+}
+.main1__title {
+  font-size: 90px;
+  font-family: "Mukta", sans-serif;
+  color: #4d4d4d;
+}
+
+.main1__title__text {
+  color: #909090;
+  font-size: 22px;
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  margin-top: -30px;
+}
+
+.buttomn {
+  display: flex;
+  max-width: 345px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.main1__title__button1 {
+  border: 1px solid white;
+  max-width: 160px;
+  max-height: 50px;
+  text-align: center;
+  color: #4d4d4d;
+  background-color: white;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+.main1__title__button2 {
+  max-width: 157px;
+  max-height: 47px;
+  border: 3px solid black;
+  text-align: center;
+  padding: 20px 30px;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.main1__men {
+  max-width: 570px;
+  max-height: 640px;
+  margin-left: -350px;
+}

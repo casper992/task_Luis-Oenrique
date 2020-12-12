@@ -1,0 +1,150 @@
+.section3 {
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 800px;
+}
+
+.container-services {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-services__title {
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #797979;
+    padding: 120px 0px 70px 0px;
+}
+
+.container-services__title span {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #797979;
+    border-top: 3px solid #797979;
+}
+
+.container-services__body {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 180px;
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: bold;   /* почему не применяется свойство к шрифту?!*/
+    color: #4d4d4d;
+}
+
+.container-services__body-123 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-services__body-456 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 85px;
+}
+
+.container-services img {
+    max-width: 100px;
+    max-height: 70px;
+}
+.container-services__body-icon1 {
+}
+
+.body-icon1-icon img {
+    padding-left: 20px;
+}
+
+.body-icon1-text {
+    display: inline-block;
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+.container-services__body-icon2 {
+}
+
+.body-icon2-icon img {
+    padding-left: 30px;
+}
+
+.body-icon2-text {
+    display: inline-block;
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+
+.container-services__body-icon3 {
+}
+
+.body-icon3-icon img {
+    padding-left: 10px;
+}
+
+.body-icon3-text {
+    display: inline-block;
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+.container-services__body-icon4 {
+}
+
+.body-icon4-icon img {
+    padding:0 0 10px 20px;
+}
+
+.body-icon4-text {
+    display: inline-block;
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+
+.container-services__body-icon5 {
+    padding-left: 25px;
+}
+
+.body-icon5-icon img {
+}
+
+.body-icon5-text{
+    display: inline-block;
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4d4d4d;
+    text-align: center;
+} 
+
+
+.container-services__body-icon6 {
+      margin-left: 50px;
+}
+
+.body-icon6-icon img {
+       
+}
+
+.body-icon6-text {
+    display: inline-block;
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4d4d4d;
+}

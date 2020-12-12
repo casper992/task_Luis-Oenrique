@@ -1,0 +1,77 @@
+.section1 {
+    width: 100%;
+    
+}
+
+.container__luis {
+width: 100%;
+display: flex;
+justify-content:  space-between;
+background-color: #e1e1e1;
+padding: 30px 100px 10px 100px;
+}
+
+.container__title {
+width: 1000px;
+display: inline-block;
+display: flex;
+flex-direction: column;
+}
+
+.luis-title {
+font-weight: 700;
+font-size: 70px;
+font-family: "Mukta", sans-serif;
+color: #4d4d4d;
+margin-top: 10px;
+
+}
+
+.luis-text {
+ color: #909090;
+ font-size: 20px;
+ font-weight: 500;
+ font-family: "Mukta", sans-serif;
+ padding-top: -50px;
+}
+
+a{
+text-decoration: none;
+}
+.luis-button {
+display: inline-block;
+display: flex;
+justify-content: flex-start;
+max-width: 400px;
+text-align: center;
+margin-top: 20px;
+color:  #4d4d4d;
+text-decoration: none;
+}
+
+.luis-button1 {
+margin-right: 40px;
+border: 1px solid white;
+background-color: white;
+height: 50px;
+width: 150px;
+padding-top: 14px;
+font-weight: 700;
+text-transform: uppercase;
+
+}
+
+.luis-button2 {
+border: 3px solid black;
+background-color: black;
+height: 50px;
+width: 147px;
+padding-top: 14px;
+background-color: #e1e1e1;
+}
+
+.container-img {    /* не могу влиять на размер картинки?!*/
+display: block;
+height: 100%;
+
+}   

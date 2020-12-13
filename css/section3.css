@@ -31,6 +31,7 @@
     display: inline-block;
     flex-wrap: wrap;
     width: 100%;
+    height: 400px;
     padding: 0px 180px;
     font-family: "Mukta", sans-serif;
     font-size: 22px;
@@ -47,8 +48,22 @@
 .container-services__body-456 {
     display: flex;
     justify-content: space-between;
+    flex: 0 1 33%;
     width: 100%;
     margin-top: 85px;
+}
+
+.body-icon1-text,
+.body-icon2-text,
+.body-icon3-text,
+.body-icon4-text,
+.body-icon5-text,
+.body-icon6-text {
+    display: inline-block;
+    font-family: "Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #4d4d4d;
 }
 
 .container-services img {
@@ -63,11 +78,7 @@
 }
 
 .body-icon1-text {
-    display: inline-block;
-    font-family: "Mukta", sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: #4d4d4d;
+
 }
 
 .container-services__body-icon2 {
@@ -78,27 +89,21 @@
 }
 
 .body-icon2-text {
-    display: inline-block;
-    font-family: "Mukta", sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: #4d4d4d;
+
 }
 
 
 .container-services__body-icon3 {
+    padding-right: 20px;
 }
 
 .body-icon3-icon img {
-    padding-left: 10px;
+    padding-left: 24px;
 }
 
 .body-icon3-text {
-    display: inline-block;
-    font-family: "Mukta", sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: #4d4d4d;
+    padding-right: 10px;
+
 }
 
 .container-services__body-icon4 {
@@ -109,42 +114,32 @@
 }
 
 .body-icon4-text {
-    display: inline-block;
-    font-family: "Mukta", sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: #4d4d4d;
+
 }
 
 .container-services__body-icon5 {
-    padding-left: 25px;
+    padding-left: 117px;
 }
 
 .body-icon5-icon img {
 }
 
 .body-icon5-text{
-    display: inline-block;
-    font-family: "Mukta", sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: #4d4d4d;
-    text-align: center;
+
 } 
 
 
 .container-services__body-icon6 {
-      margin-left: 50px;
+    padding-left: 103px;
+    width: 300px;
 }
 
 .body-icon6-icon img {
-       
+    margin-left: 70px;
 }
 
-.body-icon6-text {
-    display: inline-block;
-    font-family: "Mukta", sans-serif;
-    font-size: 22px;
-    font-weight: 700;
-    color: #4d4d4d;
-}
+.body-icon6-text{
+
+} 
+
+

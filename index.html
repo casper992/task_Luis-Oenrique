@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="./js/diagram.js"></script>
     <link rel="stylesheet" href="./css/allstyle.css"> 
 </head>
 <body>
@@ -16,11 +18,11 @@
       </div>
      <nav class="header__menu">
        <ul class="header__menu-ul">
-         <li class="header__menu-home"><a href="https://www.google.com/">Home</a></li>  
-         <li class="header__menu-about"><a href="https://www.google.com/">ABOUT</a></li>  
-         <li class="header__menu-service"><a href="https://www.google.com/">SERVICE</a></li>  
-         <li class="header__menu-portfolio"><a href="https://www.google.com/">PORTFOLIO</a></li>  
-         <li class="header__menu-contact"><a href="https://www.google.com/">CONTACT</a></li>  
+         <li class="header__menu-home"><a href="#">Home</a></li>  
+         <li class="header__menu-about"><a href="#">ABOUT</a></li>  
+         <li class="header__menu-service"><a href="#">SERVICE</a></li>  
+         <li class="header__menu-portfolio"><a href="#">PORTFOLIO</a></li>  
+         <li class="header__menu-contact"><a href="#">CONTACT</a></li>  
        </ul>
      </nav>
      </div>
@@ -32,12 +34,12 @@
           <div class="luis-title">Luis Oenrique</div>
           <div class="luis-text">User Experience / User Interface Expert</div>
           <div class="luis-button">
-          <div class="luis-button1"><a href="https://www.google.com/">KNOW MORE</a></div>
-          <div class="luis-button2"><a href="https://www.google.com/">HIRE ME</a></div>
+          <div class="luis-button1"><a href="#">KNOW MORE</a></div>
+          <div class="luis-button2"><a href="#">HIRE ME</a></div>
           </div>  
          </div>
      <div class="container-img">
-       <div class="main__luis-img"><img src="./image/men.png" alt="men"></div>
+       <div class="main__luis-img"><img src="./image/men.png" alt="guy"></div>
        </div>
      </div>
      
@@ -47,10 +49,10 @@
        <div class="info">
          <div class="info-title"><span>kn</span>ow more about me</div>
          <div class="info-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>
-         <div class="info-btm"><a href="http://google.com">DOWNLOAD MY CV</a></div>
+         <div class="info-btm"><a href="#">DOWNLOAD MY CV</a></div>
       </div>
     <div class="img2">
-      <img src="./image/about/1.png" alt="img2">
+      <img src="./image/about/1.png" alt="men">
         </div>
    </div>
     </section>
@@ -61,19 +63,19 @@
               <div class="container-services__body-123">
                <div class="container-services__body-icon1">
                   <div class="body-icon1-icon">
-                    <a href=""><img src="./image/service/1.png" alt="1"></a>
+                    <a href="#"><img src="./image/service/1.png" alt="user"></a>
                   </div>
                   <div class="body-icon1-text">User Research</div>
               </div>
               <div class="container-services__body-icon2">
                 <div class="body-icon2-icon">
-                   <a href=""><img src="./image/service/2.png" alt="2"></a>
+                   <a href="#"><img src="./image/service/2.png" alt="wireframe"></a>
                 </div>
                 <div class="body-icon2-text">IA And Wireframes</div>
               </div>
               <div class="container-services__body-icon3">
                 <div class="body-icon3-icon">
-                  <a href=""><img src="./image/service/3.png" alt="3"></a>
+                  <a href="#"><img src="./image/service/3.png" alt="user test"></a>
                 </div>
                 <div class="body-icon3-text">User Testing</div>
               </div>
@@ -81,19 +83,19 @@
             <div class="container-services__body-456">
               <div class="container-services__body-icon4">
                 <div class="body-icon4-icon">
-                  <a href=""><img src="./image/service/4.png" alt="4"></a>
+                  <a href="#"><img src="./image/service/4.png" alt="design"></a>
                 </div>
                 <div class="body-icon4-text">Look and Fell <br>Design(UI)</div>
               </div>
               <div class="container-services__body-icon5">
                 <div class="body-icon5-icon">
-                  <a href=""><img src="./image/service/5.png" alt="5"></a>
+                  <a href="#"><img src="./image/service/5.png" alt="delivery"></a>
                 </div>
                 <div class="body-icon5-text">Delivery</div>
               </div>
               <div class="container-services__body-icon6">
                 <div class="body-icon6-icon">
-                  <a href=""><img src="./image/service/6.png" alt="6"></a>
+                  <a href="#"><img src="./image/service/6.png" alt="support"></a>
                 </div>
                 <div class="body-icon6-text">Integration Support</div>
               </div>
@@ -107,16 +109,14 @@
              <div class="skill-top__title">My <span>ski</span>lls</div>
           </div>
           <div class="skill-body">
-             <canvas id="diagram" width="600" height="220"></canvas>
-             <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-             <script src="./js/diagram.js"></script>
-         
-              <div class="skill-body__img">
-                  <div class="skill-body__img1"><img src="./image/skill/1.png" alt="1"></div>
-                  <div class="skill-body__img2"><img src="./image/skill/2.png" alt="2"></div>
-                  <div class="skill-body__img3"><img src="./image/skill/3.png" alt="3"></div>
-                  <div class="skill-body__img4"><img src="./image/skill/4.png" alt="4"></div>
-              </div>
+             <canvas id="diagram" width="700" height="320"></canvas>
+               <script src="./js/diagram.js"></script>
+                  <div class="skill-body__img">
+                      <div class="skill-body__img1"><img src="./image/skill/1.png" alt="1"></div>
+                      <div class="skill-body__img2"><img src="./image/skill/2.png" alt="2"></div>
+                     <div class="skill-body__img3"><img src="./image/skill/3.png" alt="3"></div>
+                     <div class="skill-body__img4"><img src="./image/skill/4.png" alt="4"></div>
+              </div>  
           </div>
        </div>
     </section>
@@ -124,19 +124,84 @@
         <div class="container">
             <div class="container-title">por<span>tf</span>olio</div>
             <div class="container-body">
-                <div class="container-body__img1"><img src="./image/portfolio/1.png" alt="1"></div>
-                <div class="container-body__img2"><img src="./image/portfolio/2.png" alt="2"></div>
-                <div class="container-body__img3"><img src="./image/portfolio/3.png" alt="3"></div>
-                <div class="container-body__img4"><img src="./image/portfolio/4.png" alt="4"></div>
-                <div class="container-body__img5"><img src="./image/portfolio/5.png" alt="5"></div>
-                <div class="container-body__img6"><img src="./image/portfolio/6.png" alt="6"></div>
+                <div class="container-body__img1"><img src="./image/portfolio/1.png" alt="pictures1"></div>
+                <div class="container-body__img2"><img src="./image/portfolio/2.png" alt="pictures2"></div>
+                <div class="container-body__img3"><img src="./image/portfolio/3.png" alt="pictures3"></div>
+                <div class="container-body__img4"><img src="./image/portfolio/4.png" alt="pictures4"></div>
+                <div class="container-body__img5"><img src="./image/portfolio/5.png" alt="pictures5"></div>
+                <div class="container-body__img6"><img src="./image/portfolio/6.png" alt="pictures6"></div>
             </div>
             <div class="container-button">
-                <a href="./google.com">load more</a>
+                <a href="#">load more</a>
             </div>
         </div>
     </section>
+  <div class="section6">
+      <div class="container-test">
+          <div class="container-test__title">testi<span class="underline">mo</span>nials</div>
+          <div class="container-lima">
+              <div class="container-lima__img"><img src="./image/test/1.png" alt="wooman"></div>
+              <div class="container-lima__text">
+                <div class="container-lima__text-title">limara tusi <p class="undertitle">ceo,randomcompany</p></div>
+                <div class="container-lima__text-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repudiandae doloremque perferendis? Ipsum ut velit praesentium quos esse voluptatem minus porro tenetur illum, doloribus ea inventore eius tempora necessitatibus dolorum.</div>
+                <div class="container-lima__slider">
+                  <span class="slide1"></span>
+                  <span class="slide2"></span>
+                  <span class="slide3"></span>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="container-statistik">
+          <div class="statistik-colunm1">
+              <div class="column__img"><img src="./image/test/icons/1.png" alt="table"></div>
+              <div class="column__number">120</div>
+              <div class="column__text">hands to work</div>
+          </div>
+          <div class="statistik-colunm2">
+            <div class="column__img"><img src="./image/test/icons/2.png" alt="smile"></div>
+            <div class="column__number">310</div>
+            <div class="column__text">happy clients</div>
+        </div>
+          <div class="statistik-colunm3">
+            <div class="column__img"><img src="./image/test/icons/3.png" alt="check"></div>
+            <div class="column__number">310</div>
+            <div class="column__text">finishep projects</div>
+       </div>
+         <div class="statistik-colunm4">
+            <div class="column__img"><img src="./image/test/icons/4.png" alt="cup"></div>
+           <div class="column__number">310</div>
+           <div class="column__text">cups of coffe</div>
+        </div>
+      </div>
+
+  </div>
 </main>
+<footer>
+    <div class="footer-title">say <span>he</span>llo!</div>
+    <div class="footer-form">
+      <form action="">
+          <input class="name" type="text" placeholder="name">
+          <input class="email" type="text" placeholder="email">
+          <br>
+          <textarea class="messege" placeholder="messege"  cols="30" rows="10"></textarea> 
+      </form>
+      <button class="lastbutton">send<img src="./image/footer/buttom/1.png" alt="arrow"></button>
+    </div>
+    <hr>
+    <div class="footer-container">
+        <div class="footer-container__messengers">
+            <a href="https://www.facebook.com/"><img src="./image/footer/messenger/1.png" alt="facebook"></a>
+            <img src="./image/footer/messenger/2.png" alt="twiter">
+            <img src="./image/footer/messenger/3.png" alt="inthat">
+            <img src="./image/footer/messenger/4.png" alt="google">
+            <img src="./image/footer/messenger/5.png" alt="behance">
+            <img src="./image/footer/messenger/6.png" alt="dribble">
+        </div>
+        <div class="footer-container__text">2017 all right reserved</div>
+    </div>
+    
+    </footer>
 </body>
 </html>
 

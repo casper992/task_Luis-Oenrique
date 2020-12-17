@@ -1,0 +1,144 @@
+.section6 {
+    margin-top: 600px;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+.underline{
+    color: #717171;
+    border-top: 4px solid #717171;
+    font-weight: 700;
+}
+
+.container-test {
+    width: 100%;
+
+}
+
+.container-test__title {
+    width: 100%;
+    text-align: center;
+    color: #717171;
+    font-family: "Mukta", sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container-lima {
+    margin: 60px 200px 0px;
+    border: 3px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.container-lima__img{
+width: 500px;
+padding-left: 120px;
+
+}
+
+.container-lima__img img{
+    height: 160px;
+    width: 160px;
+
+}
+
+.container-lima__text {
+    width: 100%;
+
+}
+
+.container-lima__text-title {
+    font-family: "Mukta", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+    line-height: 22px;
+    
+}
+
+.undertitle {
+    font-family: "Mukta", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: black;
+    padding-bottom: 22px;
+}
+
+.container-lima__text-text {
+    font-family: "Mukta", sans-serif;
+    font-size: 20px;
+    color: #9b9b9b;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.container-lima__slider {
+    padding: 60px 0px 0px 150px;
+    cursor: wait;
+    width: 240px;
+}
+
+.slide1{
+    display: inline-block;
+    border: 3px solid black;
+    height: 20px;
+    width: 20px;
+    
+}
+
+.slide2{
+    display: inline-block;
+    border: 3px solid black;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+.slide3{
+    display: inline-block;
+    border: 3px solid black;
+    height: 20px;
+    width: 20px;
+}
+.container-statistik img{
+    width: 100px;
+    height: 100px;
+}
+
+.container-statistik {
+    height: 350px;
+    width: 100%;
+    margin-top: 120px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 150px 0px;
+    z-index: 2;
+}
+
+.column__img {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.container-statistik .column__number{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 75px;
+}
+
+.column__text {
+    color: #656565;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 20px;
+}
+

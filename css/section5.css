@@ -23,8 +23,6 @@
     color: #6f6f6f;
     text-align: center;
     padding-bottom: 40px;
-    
-    
 }
 
 .container-title span{
@@ -41,17 +39,16 @@
 }
 
 .container-body img{
-    max-width: 350px;
-    max-height: 300px;
+    width: 350px;
+    height: 300px;
+    height: 100%;
 }
+
 
 .container-button{
     width: 100%;
-    display: inline-block;
-    font-family: "Mukta", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
-    color: #4d4d4d;
     background-color: white;
     text-align: center;
     border: 1px solid white;
@@ -59,4 +56,23 @@
     height: 50px;
     padding-top: 11px;
     margin-left: 500px;
+    font-weight: 700;
+    margin-top: 30px;
 } 
+
+.container-button:hover{
+    background-color: rgb(0, 255, 85);
+    border: 2px dashed blue;
+}
+
+.container-button a{
+    text-decoration: none;
+    color:#4d4d4d;
+    background-color: #fff;
+}
+
+.container-button a:hover{
+    color: red;
+    
+    background-color: rgb(0, 255, 85);
+}

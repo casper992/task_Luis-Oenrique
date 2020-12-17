@@ -2,13 +2,11 @@
     width: 100%;
     background-color: #f6f6f6;
     height: 100vh;
-
 }
 
 .container-services {
     display: flex;
     flex-direction: column;
-    
 }
 
 .container-services__title {
@@ -27,7 +25,6 @@
     font-weight: 700;
     color: #797979;
     border-top: 3px solid #797979;
-    
 }
 
 .container-services__body {
@@ -38,11 +35,8 @@
     padding: 0px 180px;
     font-family: "Mukta", sans-serif;
     font-size: 22px;
-    font-weight: 700;   /* почему не применяется свойство к шрифту?!*/
+    font-weight: 700;
     color: #4d4d4d;
-    
-    
-    
 }
 
 .container-services__body-123 {
@@ -83,21 +77,12 @@
     padding-left: 20px;
 }
 
-.body-icon1-text {
-
-}
-
 .container-services__body-icon2 {
 }
 
 .body-icon2-icon img {
     padding-left: 30px;
 }
-
-.body-icon2-text {
-
-}
-
 
 .container-services__body-icon3 {
     padding-right: 20px;
@@ -112,28 +97,13 @@
 
 }
 
-.container-services__body-icon4 {
-}
-
 .body-icon4-icon img {
     padding:0 0 10px 20px;
-}
-
-.body-icon4-text {
-
 }
 
 .container-services__body-icon5 {
     padding-left: 117px;
 }
-
-.body-icon5-icon img {
-}
-
-.body-icon5-text{
-
-} 
-
 
 .container-services__body-icon6 {
     padding-left: 103px;
@@ -144,8 +114,9 @@
     margin-left: 70px;
 }
 
-.body-icon6-text{
-
-} 
-
-
+.info-btm{
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid black;
+    
+}

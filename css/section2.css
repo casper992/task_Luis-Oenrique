@@ -5,64 +5,79 @@
 }
 
 .container-about {
-display: flex;
-justify-content: space-between;
-flex: 1 1 50%;
-padding: 110px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 50%;
+    padding: 110px 100px;
 }
 
 .info {
-max-width: 450px;
-display: flex;
-flex-direction: column;
+    
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .info-title {
-font-family: "Mukta", sans-serif;
-font-size: 46px;
-color: #717171;
-font-weight: 700;
-text-transform:uppercase;
-max-width: 350px;
-line-height: 45px;
-padding-bottom: 15px;
+    font-family: "Mukta", sans-serif;
+    font-size: 54px;
+    color: #717171;
+    font-weight: 700;
+    text-transform:uppercase;
+    max-width: 350px;
+    line-height: 45px;
+    padding-bottom: 15px;
 
 }
 
 .info-title span{
-display: inline-block;
-border-top: 3px solid #7a7a7a;
-font-weight: 700;
-padding-top: 20px;
+    display: inline-block;
+    border-top: 3px solid #7a7a7a;
+    font-weight: 700;
+    padding-top: 20px;
 }
 
 .info-text{
-font-family: "Mukta", sans-serif;
-font-size: 16px;
-font-weight: 500;
-color: #797979;
-padding-bottom: 40px;
+    font-family: "Mukta", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #797979;
+    padding-bottom: 40px;
 } 
 
 .info-btm {
-height: 50px;
-width: 250px;
-border: 1px solid black;
-color: #797979;
-text-align: center;
-padding: 16px;
-font-weight: 700;
+    height: 60px;
+    width: 250px;
+    border: 1px solid black;
+    color: #797979;
+    text-align: center;
+    font-weight: 700;
+    font-style: 18px;
+    background-color: #fff;
+}
+
+.info-btm:hover{
+    border: 2px dashed #1b73f3;
 }
 
 .info-btm a:hover{
-display: inline-block;
-color:green;   /* почему не срабатывает цвет ?! */
-background-color: black;
+    color:red;
+}
+
+.info-btm a{
+    display: inline-block;
+    color: #4d4d4d;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    padding-top: 15px;
+    margin: 0 auto;
 }
 
 .img2 {
-max-height: 450px;
-max-width: 570px;
+    width: 100%;
+    max-height: 450px;
+    max-width: 570px;
 
 }

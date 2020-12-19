@@ -10,7 +10,6 @@
     max-width: 1200px;
     max-height: 750px;
     margin: 0px 100px;
-    
 }
 
 .container-title {
@@ -33,6 +32,7 @@
 }
 
 .container-body{
+    margin: 0 auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -41,20 +41,21 @@
 .container-body img{
     width: 350px;
     height: 300px;
-    height: 100%;
+    
 }
 
 
 .container-button{
     width: 100%;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
     background-color: white;
     text-align: center;
     border: 1px solid white;
     width: 190px;
-    height: 50px;
-    padding-top: 11px;
+    height: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin-left: 500px;
     font-weight: 700;
     margin-top: 30px;
@@ -73,6 +74,5 @@
 
 .container-button a:hover{
     color: red;
-    
     background-color: rgb(0, 255, 85);
 }

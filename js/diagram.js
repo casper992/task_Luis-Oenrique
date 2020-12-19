@@ -1,6 +1,23 @@
+
+const labels = ['', '', '', ''];
+const images = ['./image/skill/1.png', './image/skill/2.png', './image/skill/3.png', './image/skill/4.png'];
+const values = [83, 72, 95, 85];
 var ctx = document.getElementById('diagram').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
+    plugins: [{
+        afterDraw: chart => {      
+          var ctx = chart.chart.ctx; 
+          var xAxis = chart.scales['x-axis-0'];
+          var yAxis = chart.scales['y-axis-0'];
+          xAxis.ticks.forEach((value, index) => {  
+            var x = xAxis.getPixelForTick(index);      
+            var image = new Image();
+            image.src = images[index],
+            ctx.drawImage(image, x - 12, yAxis.bottom + 10);
+          });      
+        }
+      }],
     data: {
         labels: ['','','', '','', '','', '',''],
         display: false,

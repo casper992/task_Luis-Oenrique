@@ -35,14 +35,14 @@
 
 .skill-body {
     padding:0px 180px;
-    
 }
 
 
 #diagram{
-    max-width: 1000px;
+    max-width: 900px;
     max-height: 500px; 
    /* background-color: #fafafa;  */
+   margin: 0 auto;
 }
 
 

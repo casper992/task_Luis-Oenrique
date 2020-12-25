@@ -7,7 +7,7 @@
     width: 100%;
     display: flex;
     flex: 1 1 50%;
-    justify-content:  space-between;
+    justify-content: space-between;
     background-color: #e1e1e1;
     padding: 30px 100px 10px 100px;
     padding-right: 50px;
@@ -33,14 +33,13 @@
     font-weight: 500;
 }
 
-.container__title a{
+.container__title a {
     font-style: 20px;
     text-decoration: none;
     color: #565656;
-
 }
 
-.container__title a:hover{
+.container__title a:hover {
     color: red;
 }
 
@@ -51,17 +50,17 @@
     max-width: 340px;
     text-align: center;
     margin-top: 20px;
-    color:  #4d4d4d;
+    color: #4d4d4d;
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
 }
 
-.luis-button1:hover{
+.luis-button1:hover {
     border: 2px dashed rgb(0, 255, 115);
 }
 
-.luis-button2:hover{
+.luis-button2:hover {
     border: 2px dashed rgb(0, 255, 115);
 }
 
@@ -72,7 +71,7 @@
     height: 60px;
     width: 150px;
     padding-top: 12px;
-    padding-bottom: 12px; 
+    padding-bottom: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -89,14 +88,14 @@
     font-weight: 700;
 }
 
-.container-img {    /* не могу влиять на размер картинки?!*/
+.container-img {
     height: 100%;
     width: 100%;
-    
 }
 
-.container-img img{
+.container-img img {
     height: 100%;
     width: 100%;
-    margin: 0 auto;
+    position: relative;
+    left: -150px;
 }

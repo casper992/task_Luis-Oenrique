@@ -12,10 +12,10 @@
 }
 
 .info {
-    max-width: 450px;
+    max-width: 550px;
     display: flex;
     flex-direction: column;
-
+    padding-left: 70px;
 }
 
 .info-title {
